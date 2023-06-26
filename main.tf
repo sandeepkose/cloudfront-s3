@@ -6,7 +6,7 @@ provider "aws" {
 }
 
 module "cloudfront" {
-  source = "https://github.com/sandeepkose/cloudfront-s3/modules/"
+  source = "github.com/sandeepkose/cloudfront-s3/modules/"
 
   SiteTags          = var.SiteTags
   domainName        = var.domainName
